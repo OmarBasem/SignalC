@@ -35,3 +35,4 @@ FOUNDATION_EXPORT const unsigned char SignalCVersionString[];
 #import "group_session_builder.h"
 #import "group_cipher.h"
 #import "fingerprint.h"
+#import "uthash.h"

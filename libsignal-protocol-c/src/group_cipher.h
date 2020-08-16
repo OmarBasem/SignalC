@@ -86,6 +86,10 @@ int group_cipher_encrypt(group_cipher *cipher,
         const uint8_t *padded_plaintext, size_t padded_plaintext_len,
         ciphertext_message **encrypted_message);
 
+int group_cipher_encrypt_chat(group_cipher *cipher,
+                         const uint8_t *padded_plaintext, size_t padded_plaintext_len,
+                         ciphertext_message **encrypted_message);
+
 /**
  * Decrypt a message.
  *
@@ -104,6 +108,10 @@ int group_cipher_encrypt(group_cipher *cipher,
 int group_cipher_decrypt(group_cipher *cipher,
         sender_key_message *ciphertext, void *decrypt_context,
         signal_buffer **plaintext);
+
+int group_cipher_decrypt_chat(group_cipher *cipher,
+                         sender_key_message *ciphertext, void *decrypt_context,
+                         signal_buffer **plaintext);
 
 void group_cipher_free(group_cipher *cipher);
 

@@ -36,7 +36,7 @@
 		0798095724DE7F890037DA4A /* utarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808A624DE7F870037DA4A /* utarray.h */; };
 		0798095824DE7F890037DA4A /* hkdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 079808A724DE7F870037DA4A /* hkdf.c */; };
 		0798095924DE7F890037DA4A /* fingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808A824DE7F870037DA4A /* fingerprint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0798095A24DE7F890037DA4A /* uthash.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808A924DE7F870037DA4A /* uthash.h */; };
+		0798095A24DE7F890037DA4A /* uthash.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808A924DE7F870037DA4A /* uthash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0798095B24DE7F890037DA4A /* sender_key_state.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808AA24DE7F870037DA4A /* sender_key_state.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0798095C24DE7F890037DA4A /* hkdf.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808AB24DE7F870037DA4A /* hkdf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0798095D24DE7F890037DA4A /* vpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808AC24DE7F870037DA4A /* vpool.h */; };
@@ -628,7 +628,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0798099824DE7F890037DA4A /* gen_veddsa.h in Headers */,
 				0798096524DE7F890037DA4A /* session_record.h in Headers */,
 				0798094E24DE7F890037DA4A /* signal_protocol_types.h in Headers */,
 				0798096224DE7F890037DA4A /* key_helper.h in Headers */,
@@ -647,6 +646,13 @@
 				079809E424DE7F890037DA4A /* sender_key_record.h in Headers */,
 				0798095624DE7F890037DA4A /* session_pre_key.h in Headers */,
 				0798095B24DE7F890037DA4A /* sender_key_state.h in Headers */,
+				0798095A24DE7F890037DA4A /* uthash.h in Headers */,
+				0798058A24DE7BBF0037DA4A /* SignalC.h in Headers */,
+				079809B724DE7F890037DA4A /* internal_fast_tests.h in Headers */,
+				0798094424DE7F890037DA4A /* WhisperTextProtocol.pb-c.h in Headers */,
+				079809DE24DE7F890037DA4A /* base2.h in Headers */,
+				079809D124DE7F890037DA4A /* sc.h in Headers */,
+				0798099824DE7F890037DA4A /* gen_veddsa.h in Headers */,
 				079809D624DE7F890037DA4A /* crypto_verify_32.h in Headers */,
 				0798098224DE7F890037DA4A /* ge_add.h in Headers */,
 				079809AD24DE7F890037DA4A /* utility.h in Headers */,
@@ -673,10 +679,6 @@
 				0798093E24DE7F890037DA4A /* FingerprintProtocol.pb-c.h in Headers */,
 				0798095724DE7F890037DA4A /* utarray.h in Headers */,
 				079809BD24DE7F890037DA4A /* d2.h in Headers */,
-				079809B724DE7F890037DA4A /* internal_fast_tests.h in Headers */,
-				0798094424DE7F890037DA4A /* WhisperTextProtocol.pb-c.h in Headers */,
-				079809DE24DE7F890037DA4A /* base2.h in Headers */,
-				079809D124DE7F890037DA4A /* sc.h in Headers */,
 				079809D324DE7F890037DA4A /* crypto_uint32.h in Headers */,
 				079809CE24DE7F890037DA4A /* d.h in Headers */,
 				0798099524DE7F890037DA4A /* gen_crypto_additions.h in Headers */,
@@ -685,8 +687,6 @@
 				079809C024DE7F890037DA4A /* ge_msub.h in Headers */,
 				079809D724DE7F890037DA4A /* crypto_int64.h in Headers */,
 				0798098024DE7F890037DA4A /* pow225521.h in Headers */,
-				0798095A24DE7F890037DA4A /* uthash.h in Headers */,
-				0798058A24DE7BBF0037DA4A /* SignalC.h in Headers */,
 				0798096824DE7F890037DA4A /* protobuf-c.h in Headers */,
 				0798095424DE7F890037DA4A /* signal_protocol_internal.h in Headers */,
 				079809CD24DE7F890037DA4A /* ge_p2_dbl.h in Headers */,
