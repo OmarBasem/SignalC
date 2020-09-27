@@ -514,7 +514,7 @@ complete:
     return result;
 }
 
-sender_message_key *sender_key_state_remove_sender_message_key(sender_key_state *state, uint32_t iteration)
+sender_message_key *sender_key_state_remove_sender_message_key(sender_key_state *state, uint32_t iteration, int isChat)
 {
     sender_message_key *result = 0;
     sender_message_key_node *cur_node = 0;
@@ -523,7 +523,8 @@ sender_message_key *sender_key_state_remove_sender_message_key(sender_key_state 
 
     DL_FOREACH_SAFE(state->message_keys_head, cur_node, tmp_node) {
         if(sender_message_key_get_iteration(cur_node->key) == iteration) {
-            DL_DELETE(state->message_keys_head, cur_node);
+            if (isChat)
+                DL_DELETE(state->message_keys_head, cur_node);
             result = cur_node->key;
             free(cur_node);
             break;

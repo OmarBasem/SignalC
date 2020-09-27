@@ -23,7 +23,7 @@ ec_public_key *sender_key_state_get_signing_key_public(sender_key_state *state);
 ec_private_key *sender_key_state_get_signing_key_private(sender_key_state *state);
 int sender_key_state_has_sender_message_key(sender_key_state *state, uint32_t iteration);
 int sender_key_state_add_sender_message_key(sender_key_state *state, sender_message_key *message_key);
-sender_message_key *sender_key_state_remove_sender_message_key(sender_key_state *state, uint32_t iteration);
+sender_message_key *sender_key_state_remove_sender_message_key(sender_key_state *state, uint32_t iteration, int isChat);
 
 void sender_key_state_destroy(signal_type_base *type);
 

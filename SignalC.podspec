@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SignalC"
-  spec.version      = "2.3.7"
+  spec.version      = "2.3.10"
   spec.summary      = "Signal Protocol C Library"
 
 
@@ -21,8 +21,6 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Omar Basem" => "founder@stiiick.com" }
  
-
-  spec.platform     = :ios
 
   spec.ios.deployment_target = "11.0"
   spec.ios.vendored_frameworks = "SignalC.framework"
