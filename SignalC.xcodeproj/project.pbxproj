@@ -27,7 +27,6 @@
 		0798094E24DE7F890037DA4A /* signal_protocol_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 0798089D24DE7F860037DA4A /* signal_protocol_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0798094F24DE7F890037DA4A /* group_cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798089E24DE7F860037DA4A /* group_cipher.c */; };
 		0798095024DE7F890037DA4A /* utlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0798089F24DE7F860037DA4A /* utlist.h */; };
-		0798095124DE7F890037DA4A /* group_cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808A024DE7F860037DA4A /* group_cipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0798095224DE7F890037DA4A /* session_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808A124DE7F860037DA4A /* session_builder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0798095324DE7F890037DA4A /* signal_protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808A224DE7F860037DA4A /* signal_protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0798095424DE7F890037DA4A /* signal_protocol_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 079808A324DE7F860037DA4A /* signal_protocol_internal.h */; };
@@ -173,6 +172,7 @@
 		079809E324DE7F890037DA4A /* session_state.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798093A24DE7F890037DA4A /* session_state.c */; };
 		079809E424DE7F890037DA4A /* sender_key_record.h in Headers */ = {isa = PBXBuildFile; fileRef = 0798093B24DE7F890037DA4A /* sender_key_record.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		079809E524DE7F890037DA4A /* signal_protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798093C24DE7F890037DA4A /* signal_protocol.c */; };
+		07B0111725261C2B00F076D2 /* group_cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B0111625261C2B00F076D2 /* group_cipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -344,6 +344,7 @@
 		0798093A24DE7F890037DA4A /* session_state.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = session_state.c; path = src/session_state.c; sourceTree = "<group>"; };
 		0798093B24DE7F890037DA4A /* sender_key_record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sender_key_record.h; path = src/sender_key_record.h; sourceTree = "<group>"; };
 		0798093C24DE7F890037DA4A /* signal_protocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = signal_protocol.c; path = src/signal_protocol.c; sourceTree = "<group>"; };
+		07B0111625261C2B00F076D2 /* group_cipher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = group_cipher.h; path = "libsignal-protocol-c/src/group_cipher.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,6 +361,7 @@
 		0798057B24DE7BBF0037DA4A = {
 			isa = PBXGroup;
 			children = (
+				07B0111625261C2B00F076D2 /* group_cipher.h */,
 				0798088B24DE7F5F0037DA4A /* libsignal-protocol-c */,
 				0798058724DE7BBF0037DA4A /* SignalC */,
 				0798058624DE7BBF0037DA4A /* Products */,
@@ -634,13 +636,13 @@
 				0798095C24DE7F890037DA4A /* hkdf.h in Headers */,
 				0798094924DE7F890037DA4A /* session_state.h in Headers */,
 				0798095324DE7F890037DA4A /* signal_protocol.h in Headers */,
-				0798095124DE7F890037DA4A /* group_cipher.h in Headers */,
 				0798094224DE7F890037DA4A /* protocol.h in Headers */,
 				0798095E24DE7F890037DA4A /* group_session_builder.h in Headers */,
 				0798096B24DE7F890037DA4A /* session_cipher.h in Headers */,
 				0798097124DE7F890037DA4A /* sender_key.h in Headers */,
 				0798095924DE7F890037DA4A /* fingerprint.h in Headers */,
 				0798096A24DE7F890037DA4A /* ratchet.h in Headers */,
+				07B0111725261C2B00F076D2 /* group_cipher.h in Headers */,
 				0798097024DE7F890037DA4A /* curve.h in Headers */,
 				0798095224DE7F890037DA4A /* session_builder.h in Headers */,
 				079809E424DE7F890037DA4A /* sender_key_record.h in Headers */,

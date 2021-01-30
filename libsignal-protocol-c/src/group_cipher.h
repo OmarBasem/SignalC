@@ -84,7 +84,7 @@ void group_cipher_set_decryption_callback(group_cipher *cipher,
  */
 int group_cipher_encrypt(group_cipher *cipher,
         const uint8_t *padded_plaintext, size_t padded_plaintext_len,
-        ciphertext_message **encrypted_message);
+        ciphertext_message **encrypted_message, int isSticky);
 
 
 /**
@@ -104,7 +104,9 @@ int group_cipher_encrypt(group_cipher *cipher,
  */
 int group_cipher_decrypt(group_cipher *cipher,
         sender_key_message *ciphertext, void *decrypt_context,
-        signal_buffer **plaintext, int isChat);
+        signal_buffer **plaintext, int isSticky, int isSelf);
+
+void ratchet_chain(group_cipher *cipher, int steps);
 
 
 void group_cipher_free(group_cipher *cipher);

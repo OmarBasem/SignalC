@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="signal-protocol-c"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\curve25519\;CMake Files\src\protobuf-c\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal-protocol-c">
+				<Option output="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/libsignal-protocol-c.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/."/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/nacl_includes"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sha512"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 signal-protocol-c"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal-protocol-c/fast">
+				<Option output="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/libsignal-protocol-c.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/."/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/nacl_includes"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sha512"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 signal-protocol-c/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curve25519">
+				<Option output="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/curve25519.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/."/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/nacl_includes"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sha512"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/Makefile&quot;  VERBOSE=1 curve25519"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curve25519/fast">
+				<Option output="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/curve25519.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/."/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/nacl_includes"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sha512"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/Makefile&quot;  VERBOSE=1 curve25519/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="protobuf-c">
+				<Option output="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/CMakeFiles/protobuf-c.dir/protobuf-c.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/."/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/nacl_includes"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sha512"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/Makefile&quot;  VERBOSE=1 protobuf-c"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="protobuf-c/fast">
+				<Option output="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/CMakeFiles/protobuf-c.dir/protobuf-c.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/."/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/nacl_includes"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sha512"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519"/>
+					<Add directory="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/Makefile&quot;  VERBOSE=1 protobuf-c/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/curve25519-donna.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/compare.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/curve_sigs.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/elligator.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/fe_isequal.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/fe_isreduced.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/fe_mont_rhs.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/fe_montx_to_edy.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/fe_sqrt.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/ge_isneutral.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/ge_montx_to_p3.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/ge_neg.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/ge_p3_to_montx.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/ge_scalarmult.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/ge_scalarmult_cofactor.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/generalized/ge_p3_add.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/generalized/gen_eddsa.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/generalized/gen_labelset.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/generalized/gen_veddsa.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/generalized/gen_x.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/generalized/point_isreduced.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/generalized/sc_isreduced.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/keygen.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/open_modified.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/sc_clamp.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/sc_cmov.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/sc_neg.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/sign_modified.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/utility.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/xeddsa.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/additions/zeroize.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_0.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_1.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_add.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_cmov.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_copy.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_frombytes.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_invert.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_isnegative.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_isnonzero.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_mul.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_neg.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_pow22523.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_sq.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_sq2.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_sub.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/fe_tobytes.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_add.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_double_scalarmult.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_frombytes.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_madd.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_msub.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p1p1_to_p2.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p1p1_to_p3.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p2_0.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p2_dbl.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p3_0.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p3_dbl.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p3_to_cached.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p3_to_p2.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_p3_tobytes.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_precomp_0.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_scalarmult_base.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_sub.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/ge_tobytes.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/nacl_sha512/blocks.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/nacl_sha512/hash.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/open.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/sc_muladd.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/sc_reduce.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/sign.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/curve25519/CMakeFiles/curve25519.dir/ed25519/tests/internal_fast_tests.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/cmake-build-debug/src/protobuf-c/CMakeFiles/protobuf-c.dir/protobuf-c.c.o">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/FingerprintProtocol.pb-c.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/LocalStorageProtocol.pb-c.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/WhisperTextProtocol.pb-c.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/curve25519-donna.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/curve25519-donna.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/compare.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/compare.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/curve_sigs.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/curve_sigs.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/elligator.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/fe_isequal.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/fe_isreduced.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/fe_mont_rhs.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/fe_montx_to_edy.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/fe_sqrt.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/ge_isneutral.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/ge_montx_to_p3.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/ge_neg.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/ge_p3_to_montx.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/ge_scalarmult.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/ge_scalarmult_cofactor.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/ge_p3_add.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/gen_eddsa.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/gen_eddsa.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/gen_labelset.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/gen_labelset.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/gen_veddsa.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/gen_veddsa.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/gen_x.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/gen_x.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/point_isreduced.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/generalized/sc_isreduced.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/keygen.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/keygen.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/open_modified.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/sc_clamp.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/sc_cmov.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/sc_neg.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/sign_modified.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/utility.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/utility.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/xeddsa.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/xeddsa.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/zeroize.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/additions/zeroize.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_0.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_1.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_add.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_cmov.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_copy.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_frombytes.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_invert.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_isnegative.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_isnonzero.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_mul.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_neg.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_pow22523.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_sq.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_sq2.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_sub.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/fe_tobytes.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_add.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_add.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_double_scalarmult.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_frombytes.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_madd.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_madd.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_msub.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_msub.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p1p1_to_p2.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p1p1_to_p3.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p2_0.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p2_dbl.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p2_dbl.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p3_0.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p3_dbl.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p3_to_cached.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p3_to_p2.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_p3_tobytes.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_precomp_0.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_scalarmult_base.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_sub.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_sub.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/ge_tobytes.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/nacl_sha512/blocks.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/nacl_sha512/hash.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/open.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sc_muladd.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sc_reduce.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/sign.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/tests/internal_fast_tests.c">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/ed25519/tests/internal_fast_tests.h">
+			<Option target="curve25519"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/device_consistency.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/device_consistency.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/fingerprint.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/fingerprint.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/group_cipher.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/group_cipher.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/group_session_builder.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/group_session_builder.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/hkdf.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/hkdf.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/key_helper.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/key_helper.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/protobuf-c/protobuf-c.c">
+			<Option target="protobuf-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/protobuf-c/protobuf-c.h">
+			<Option target="protobuf-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/protocol.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/protocol.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/ratchet.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/ratchet.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/sender_key.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/sender_key.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/sender_key_record.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/sender_key_record.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/sender_key_state.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/sender_key_state.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_builder.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_builder.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_builder_internal.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_cipher.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_cipher.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_pre_key.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_pre_key.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_record.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_record.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_state.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/session_state.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/signal_protocol.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/signal_protocol.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/signal_protocol_internal.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/signal_protocol_types.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/vpool.c">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/vpool.h">
+			<Option target="signal-protocol-c"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/libsignal-protocol-c.pc.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/curve25519/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\curve25519\"/>
+		</Unit>
+		<Unit filename="/Users/omar/Dev/SignalC/libsignal-protocol-c/src/protobuf-c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\protobuf-c\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
