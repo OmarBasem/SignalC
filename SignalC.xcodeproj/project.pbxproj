@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0798058A24DE7BBF0037DA4A /* SignalC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0798058824DE7BBF0037DA4A /* SignalC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0798093D24DE7F890037DA4A /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798088C24DE7F860037DA4A /* protocol.c */; };
 		0798093E24DE7F890037DA4A /* FingerprintProtocol.pb-c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0798088D24DE7F860037DA4A /* FingerprintProtocol.pb-c.h */; };
 		0798093F24DE7F890037DA4A /* session_pre_key.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798088E24DE7F860037DA4A /* session_pre_key.c */; };
@@ -172,12 +171,11 @@
 		079809E324DE7F890037DA4A /* session_state.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798093A24DE7F890037DA4A /* session_state.c */; };
 		079809E424DE7F890037DA4A /* sender_key_record.h in Headers */ = {isa = PBXBuildFile; fileRef = 0798093B24DE7F890037DA4A /* sender_key_record.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		079809E524DE7F890037DA4A /* signal_protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798093C24DE7F890037DA4A /* signal_protocol.c */; };
-		07B0111725261C2B00F076D2 /* group_cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B0111625261C2B00F076D2 /* group_cipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07FDBC3225C56C54003AA9A0 /* SignalC.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FDBC3125C56C54003AA9A0 /* SignalC.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0798058524DE7BBF0037DA4A /* SignalC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0798058824DE7BBF0037DA4A /* SignalC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalC.h; sourceTree = "<group>"; };
 		0798058924DE7BBF0037DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0798088C24DE7F860037DA4A /* protocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = protocol.c; path = src/protocol.c; sourceTree = "<group>"; };
 		0798088D24DE7F860037DA4A /* FingerprintProtocol.pb-c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FingerprintProtocol.pb-c.h"; path = "src/FingerprintProtocol.pb-c.h"; sourceTree = "<group>"; };
@@ -344,7 +342,7 @@
 		0798093A24DE7F890037DA4A /* session_state.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = session_state.c; path = src/session_state.c; sourceTree = "<group>"; };
 		0798093B24DE7F890037DA4A /* sender_key_record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sender_key_record.h; path = src/sender_key_record.h; sourceTree = "<group>"; };
 		0798093C24DE7F890037DA4A /* signal_protocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = signal_protocol.c; path = src/signal_protocol.c; sourceTree = "<group>"; };
-		07B0111625261C2B00F076D2 /* group_cipher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = group_cipher.h; path = "libsignal-protocol-c/src/group_cipher.h"; sourceTree = "<group>"; };
+		07FDBC3125C56C54003AA9A0 /* SignalC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,7 +359,6 @@
 		0798057B24DE7BBF0037DA4A = {
 			isa = PBXGroup;
 			children = (
-				07B0111625261C2B00F076D2 /* group_cipher.h */,
 				0798088B24DE7F5F0037DA4A /* libsignal-protocol-c */,
 				0798058724DE7BBF0037DA4A /* SignalC */,
 				0798058624DE7BBF0037DA4A /* Products */,
@@ -379,7 +376,7 @@
 		0798058724DE7BBF0037DA4A /* SignalC */ = {
 			isa = PBXGroup;
 			children = (
-				0798058824DE7BBF0037DA4A /* SignalC.h */,
+				07FDBC3125C56C54003AA9A0 /* SignalC.h */,
 				0798058924DE7BBF0037DA4A /* Info.plist */,
 			);
 			path = SignalC;
@@ -634,6 +631,7 @@
 				0798094E24DE7F890037DA4A /* signal_protocol_types.h in Headers */,
 				0798096224DE7F890037DA4A /* key_helper.h in Headers */,
 				0798095C24DE7F890037DA4A /* hkdf.h in Headers */,
+				07FDBC3225C56C54003AA9A0 /* SignalC.h in Headers */,
 				0798094924DE7F890037DA4A /* session_state.h in Headers */,
 				0798095324DE7F890037DA4A /* signal_protocol.h in Headers */,
 				0798094224DE7F890037DA4A /* protocol.h in Headers */,
@@ -642,14 +640,12 @@
 				0798097124DE7F890037DA4A /* sender_key.h in Headers */,
 				0798095924DE7F890037DA4A /* fingerprint.h in Headers */,
 				0798096A24DE7F890037DA4A /* ratchet.h in Headers */,
-				07B0111725261C2B00F076D2 /* group_cipher.h in Headers */,
 				0798097024DE7F890037DA4A /* curve.h in Headers */,
 				0798095224DE7F890037DA4A /* session_builder.h in Headers */,
 				079809E424DE7F890037DA4A /* sender_key_record.h in Headers */,
 				0798095624DE7F890037DA4A /* session_pre_key.h in Headers */,
 				0798095B24DE7F890037DA4A /* sender_key_state.h in Headers */,
 				0798095A24DE7F890037DA4A /* uthash.h in Headers */,
-				0798058A24DE7BBF0037DA4A /* SignalC.h in Headers */,
 				079809B724DE7F890037DA4A /* internal_fast_tests.h in Headers */,
 				0798094424DE7F890037DA4A /* WhisperTextProtocol.pb-c.h in Headers */,
 				079809DE24DE7F890037DA4A /* base2.h in Headers */,

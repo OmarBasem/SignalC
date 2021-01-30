@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SignalC"
-  spec.version      = "2.4.6"
+  spec.version      = "2.4.7"
   spec.summary      = "Signal Protocol C Library"
 
 
