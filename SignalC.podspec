@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SignalC"
-  spec.version      = "2.4.7"
+  spec.version      = "2.4.9"
   spec.summary      = "Signal Protocol C Library"
 
 
@@ -31,6 +31,9 @@ Pod::Spec.new do |spec|
 
 
   spec.exclude_files = "Classes/Exclude"
+
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
  
 

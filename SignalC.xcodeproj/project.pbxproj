@@ -171,7 +171,7 @@
 		079809E324DE7F890037DA4A /* session_state.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798093A24DE7F890037DA4A /* session_state.c */; };
 		079809E424DE7F890037DA4A /* sender_key_record.h in Headers */ = {isa = PBXBuildFile; fileRef = 0798093B24DE7F890037DA4A /* sender_key_record.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		079809E524DE7F890037DA4A /* signal_protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798093C24DE7F890037DA4A /* signal_protocol.c */; };
-		07FDBC3225C56C54003AA9A0 /* SignalC.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FDBC3125C56C54003AA9A0 /* SignalC.h */; };
+		07FDBC3225C56C54003AA9A0 /* SignalC.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FDBC3125C56C54003AA9A0 /* SignalC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -631,7 +631,6 @@
 				0798094E24DE7F890037DA4A /* signal_protocol_types.h in Headers */,
 				0798096224DE7F890037DA4A /* key_helper.h in Headers */,
 				0798095C24DE7F890037DA4A /* hkdf.h in Headers */,
-				07FDBC3225C56C54003AA9A0 /* SignalC.h in Headers */,
 				0798094924DE7F890037DA4A /* session_state.h in Headers */,
 				0798095324DE7F890037DA4A /* signal_protocol.h in Headers */,
 				0798094224DE7F890037DA4A /* protocol.h in Headers */,
@@ -641,6 +640,7 @@
 				0798095924DE7F890037DA4A /* fingerprint.h in Headers */,
 				0798096A24DE7F890037DA4A /* ratchet.h in Headers */,
 				0798097024DE7F890037DA4A /* curve.h in Headers */,
+				07FDBC3225C56C54003AA9A0 /* SignalC.h in Headers */,
 				0798095224DE7F890037DA4A /* session_builder.h in Headers */,
 				079809E424DE7F890037DA4A /* sender_key_record.h in Headers */,
 				0798095624DE7F890037DA4A /* session_pre_key.h in Headers */,
@@ -997,6 +997,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libsignal-protocol-c/src",
 					"$(SRCROOT)/libsignal-protocol-c/src/curve25519",
@@ -1029,6 +1030,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libsignal-protocol-c/src",
 					"$(SRCROOT)/libsignal-protocol-c/src/curve25519",
