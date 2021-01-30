@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0725AA4825C5808F0019DE12 /* group_cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0725AA4725C5808F0019DE12 /* group_cipher.h */; };
 		0798093D24DE7F890037DA4A /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798088C24DE7F860037DA4A /* protocol.c */; };
 		0798093E24DE7F890037DA4A /* FingerprintProtocol.pb-c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0798088D24DE7F860037DA4A /* FingerprintProtocol.pb-c.h */; };
 		0798093F24DE7F890037DA4A /* session_pre_key.c in Sources */ = {isa = PBXBuildFile; fileRef = 0798088E24DE7F860037DA4A /* session_pre_key.c */; };
@@ -175,6 +176,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0725AA4725C5808F0019DE12 /* group_cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = group_cipher.h; path = "libsignal-protocol-c/src/group_cipher.h"; sourceTree = "<group>"; };
 		0798058524DE7BBF0037DA4A /* SignalC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0798058924DE7BBF0037DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0798088C24DE7F860037DA4A /* protocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = protocol.c; path = src/protocol.c; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 		0798057B24DE7BBF0037DA4A = {
 			isa = PBXGroup;
 			children = (
+				0725AA4725C5808F0019DE12 /* group_cipher.h */,
 				0798088B24DE7F5F0037DA4A /* libsignal-protocol-c */,
 				0798058724DE7BBF0037DA4A /* SignalC */,
 				0798058624DE7BBF0037DA4A /* Products */,
@@ -654,6 +657,7 @@
 				079809D624DE7F890037DA4A /* crypto_verify_32.h in Headers */,
 				0798098224DE7F890037DA4A /* ge_add.h in Headers */,
 				079809AD24DE7F890037DA4A /* utility.h in Headers */,
+				0725AA4825C5808F0019DE12 /* group_cipher.h in Headers */,
 				079809A124DE7F890037DA4A /* xeddsa.h in Headers */,
 				0798099C24DE7F890037DA4A /* gen_labelset.h in Headers */,
 				0798097E24DE7F890037DA4A /* ge_sub.h in Headers */,
