@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "SignalC"
-  spec.version      = "2.4.5"
+  spec.version      = "2.4.6"
   spec.summary      = "Signal Protocol C Library"
 
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :http => "https://stiiick.s3.eu-central-1.amazonaws.com/SignalC.zip" }
+  spec.source       = { :http => "https://stick-protocol.s3.eu-central-1.amazonaws.com/SignalC.zip" }
 
 
   spec.exclude_files = "Classes/Exclude"
